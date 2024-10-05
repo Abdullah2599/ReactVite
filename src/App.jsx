@@ -1,5 +1,7 @@
 import { Carousel } from 'flowbite-react'
 import Navbar from './components/navbar'
+import Footerbottom from './components/Footerbottom'
+
 
 
 
@@ -60,9 +62,12 @@ function App() {
 </a>
 
 
+  
 
 
 </div>
+<Footerbottom/>
+
     </>
   )
 }
